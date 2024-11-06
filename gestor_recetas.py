@@ -37,14 +37,6 @@ def buscar_carpeta(file_inicial):
         except PermissionError:
             pass
 
-"""
-Gracias a ChatGPT:
-    - Detener la recursión: Se agrega una verificación después de la llamada recursiva. Si resultado no es None (lo
-    que significa que se encontró "Recetas"), se retorna esa ruta y se sale de la función.
-    - Que complejo es darle seguimiento a la recursividad, y mas aun, ver una manera de finalizarlo antes de tiempo y
-    que arroje lo necesitado.
-"""
-
 def menu_opciones():
     
     print("Gestor de Recetas Local:")
