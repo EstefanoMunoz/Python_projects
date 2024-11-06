@@ -104,7 +104,7 @@ def elegir_receta(path_recetas):
 
 # Ruta de las recetas:
 
-ruta = r"C:\Users\Estefano\Documents\Proyectos"
+ruta = r"C:\Users\"
 home = Path(ruta)                       # Ruta base del sistema de archivos de nuestro PC.
 
 ruta_recetario = buscar_carpeta(home)     # Ruta donde se encuentran las recetas por categoria.
